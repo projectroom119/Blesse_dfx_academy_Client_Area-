@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blessed FX Academy</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    h1,
+    h2 {
+      color: #0056b3;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #0056b3;
+    }
+
+    .navbar .brand-logo h1 {
+      color: #fff;
+      margin: 0;
+    }
+
+    .navbar .nav-links {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar .nav-links li {
+      margin: 0 15px;
+    }
+
+    .navbar .nav-links a {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    /* Hero Section */
+    #hero {
+      background: url("your-image-url.jpg") no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero-content h2 {
+      font-size: 2.5rem;
+    }
+
+    .hero-content p {
+      font-size: 1.2rem;
+      margin: 20px 0;
+    }
+
+    .cta-button {
+      background-color: #0056b3;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.1rem;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    #about,
+    #course,
+    #testimonials,
+    #contact {
+      background-color: #f4f4f4;
+      margin-bottom: 20px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #0056b3;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .footer-content .social-links a {
+      margin: 0 10px;
+      color: #fff;
+    }
+
+    .footer-content .social-links a:hover {
+      color: #ffb900;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .navbar .nav-links {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .hero-content h2 {
+        font-size: 2rem;
+      }
+
+      .cta-button {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-content h2 {
+        font-size: 1.5rem;
+      }
+
+      .cta-button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+      }
+    }
+  </style>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="brand-logo">
+          <h1>Blessed FX Academy</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#course">Course</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-content">
+          <h2>Master Forex Trading</h2>
+          <p>Join our WhatsApp group for exclusive insights and strategies.</p>
+          <a
+            href="https://chat.whatsapp.com/Ep5Jk0KOhcs60YqFIlHDq3"
+            class="cta-button"
+            >Join Now</a
+          >
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About Blessed FX Academy</h2>
+        <p>
+          At Blessed FX Academy, we are committed to helping you achieve
+          financial independence through expert Forex trading education.
+        </p>
+      </section>
+
+      <section id="course">
+        <h2>Our Course</h2>
+        <p>
+          Learn from the best in the industry. Our course is designed to make
+          you a proficient trader in no time.
+        </p>
+      </section>
+
+      <section id="testimonials">
+        <h2>What Our Students Say</h2>
+        <p>
+          "Joining Blessed FX Academy was the best decision I made. The
+          knowledge I gained is priceless!" - A satisfied student
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+          Have questions? Reach out to us via WhatsApp, and we’ll be happy to
+          assist.
+        </p>
+        <a
+          href="https://chat.whatsapp.com/Ep5Jk0KOhcs60YqFIlHDq3"
+          class="contact-button"
+          >Contact Now</a
+        >
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Blessed FX Academy. All rights reserved.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/your_page">Facebook</a>
+          <a href="https://www.twitter.com/your_page">Twitter</a>
+          <a href="https://www.instagram.com/your_page">Instagram</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
